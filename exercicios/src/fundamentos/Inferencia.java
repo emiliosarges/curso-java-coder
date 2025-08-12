@@ -29,5 +29,9 @@ public class Inferencia {
 		 * var e; 
 		 * e = 123.45;
 		*/
+		
+		var f = 12; // inteiro
+		//f = 12.01; Obs: Variável int gera erro ao receber double. O contrário não gera erro
+		System.out.println(f);
 	}
 }
