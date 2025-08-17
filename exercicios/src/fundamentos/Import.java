@@ -2,7 +2,7 @@ package fundamentos;
 
 import java.util.Date;
 
-import javax.swing.JButton;
+//import javax.swing.JButton;
 
 public class Import {
 	public static void main(String[] args) {
@@ -12,8 +12,7 @@ public class Import {
 		Date d = new Date();
 		System.out.println(d);
 		
-		JButton botao = new JButton();
-		System.out.println(botao);
+		//JButton botao = new JButton();
 		
 	}
 }
