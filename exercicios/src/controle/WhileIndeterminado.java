@@ -2,7 +2,7 @@ package controle;
 
 import java.util.Scanner;
 
-public class While2 {
+public class WhileIndeterminado {
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
@@ -13,8 +13,7 @@ public class While2 {
 			texto = entrada.next().toLowerCase();
 		}
 		
-		System.out.println("Parabéns! Você descobriu como sair!");
+		System.out.println("Parabéns! Você descobriu como sair!!");
 		entrada.close();
-	}
-		
+	}	
 }
