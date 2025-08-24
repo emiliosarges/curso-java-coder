@@ -19,9 +19,12 @@ public class SwitchSemBreak {
 			System.out.println("Sei o Heian Sandan");
 		case "amarela":
 			System.out.println("Sei o Heian Sandan");
+			break;
 		default:
 			System.out.println("Não sei nada");
 		}
+		
+		System.out.println("FIM!");
 	}
 	
 }
