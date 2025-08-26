@@ -6,19 +6,26 @@ public class Data {
 	int ano;
 	
 	Data() {
-		dia = 1;
-		mes = "Janeiro";
-		ano = 1970;
+		//dia = 1;
+		//mes = "Janeiro";
+		//ano = 1970;
+		
+		this(1, "Outubro", 1970);
 	}
 	
-	Data (int diaInicial, String mesInicial, int anoInicial) {
-		dia = diaInicial;
-		mes = mesInicial;
-		ano = anoInicial;
+	Data (int dia, String mes, int ano) {
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
 	}
 	
 	String obterDataFormatada() {
-		return dia + " de " + mes + " de " + ano;
+		return this.dia + " de " + mes + " de " + ano;
 	}
+	
+	void imprimirDataFormatada() {
+		System.out.println(this.obterDataFormatada());
+	}
+	
 }
 
