@@ -22,5 +22,4 @@ public class Jantar {
 				+ " Mas após comer " + comida2.nomeComida
 				+ " seu novo peso agora é " + novoPeso);
 	}
-
 } 
