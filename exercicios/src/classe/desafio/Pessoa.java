@@ -14,5 +14,7 @@ public class Pessoa {
 	double comer(double pesoComida) {
 		return pesoAposComer = pesoPessoa + pesoComida;
 	}
+	
+	
 }
  
