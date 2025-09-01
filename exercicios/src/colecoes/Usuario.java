@@ -12,14 +12,15 @@ public class Usuario {
 	
 	
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Meu nome é: " + this.nome + ".";
 	}
+	
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(nome);
 	}
+
 
 	@Override
 	public boolean equals(Object obj) {
