@@ -3,7 +3,7 @@ package oo.heranca.desafio;
 public class Carro {
 	int velocidadeAtual;
 	
-	int acelerar () {
+	public int acelerar () {
 		velocidadeAtual += 5;
 		if (velocidadeAtual > 100) {
 			velocidadeAtual = 100;
